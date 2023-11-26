@@ -17,7 +17,19 @@
     <property name="datetimeType" value="datetime(6)" dbms="mysql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126000534_added_entity_AppUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126000634_added_entity_Client.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126000734_added_entity_AppService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126000834_added_entity_Appointment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126000934_added_entity_Product.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126001034_added_entity_FinancialTransaction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126001134_added_entity_StockHistory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126001234_added_entity_Reward.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20231126000534_added_entity_constraints_AppUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126000734_added_entity_constraints_AppService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126000834_added_entity_constraints_Appointment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231126001134_added_entity_constraints_StockHistory.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

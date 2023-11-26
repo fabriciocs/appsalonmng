@@ -1,0 +1,25 @@
+{
+  "appsalonmngApp": {
+    "reward": {
+      "home": {
+        "title": "Rewards",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Reward",
+        "createOrEditLabel": "Criar ou editar Reward",
+        "notFound": "Nenhum Reward encontrado"
+      },
+      "created": "Um novo Reward foi criado com o identificador {{ param }}",
+      "updated": "Um Reward foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Reward foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Reward {{ id }}?"
+      },
+      "detail": {
+        "title": "Reward"
+      },
+      "id": "ID",
+      "points": "Points",
+      "description": "Description"
+    }
+  }
+}

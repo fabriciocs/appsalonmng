@@ -1,0 +1,27 @@
+{
+  "appsalonmngApp": {
+    "financialTransaction": {
+      "home": {
+        "title": "FinancialTransactions",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Financial Transaction",
+        "createOrEditLabel": "Créer ou éditer un Financial Transaction",
+        "notFound": "Aucun Financial Transaction trouvé"
+      },
+      "created": "Un nouveau Financial Transaction a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Financial Transaction avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Financial Transaction avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Financial Transaction {{ id }} ?"
+      },
+      "detail": {
+        "title": "Financial Transaction"
+      },
+      "id": "ID",
+      "transactionType": "Transaction Type",
+      "amount": "Amount",
+      "dateTime": "Date Time",
+      "description": "Description"
+    }
+  }
+}

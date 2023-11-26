@@ -60,7 +60,7 @@ relationship ManyToOne {
 }
 
 relationship OneToMany {
-    Client{appointments} to Appointment
+   
     Product{stockHistories} to StockHistory
 }
 

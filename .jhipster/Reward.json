@@ -1,0 +1,23 @@
+{
+  "applications": "*",
+  "changelogDate": "20231126001234",
+  "dto": "mapstruct",
+  "entityTableName": "reward",
+  "fields": [
+    {
+      "fieldName": "points",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["min"],
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "name": "Reward",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

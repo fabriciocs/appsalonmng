@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20231126001034",
+  "dto": "mapstruct",
+  "entityTableName": "financial_transaction",
+  "fields": [
+    {
+      "fieldName": "transactionType",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "dateTime",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "name": "FinancialTransaction",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

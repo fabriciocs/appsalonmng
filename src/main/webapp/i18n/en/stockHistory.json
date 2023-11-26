@@ -1,0 +1,27 @@
+{
+  "appsalonmngApp": {
+    "stockHistory": {
+      "home": {
+        "title": "Stock Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Stock History",
+        "createOrEditLabel": "Create or edit a Stock History",
+        "notFound": "No Stock Histories found"
+      },
+      "created": "A new Stock History is created with identifier {{ param }}",
+      "updated": "A Stock History is updated with identifier {{ param }}",
+      "deleted": "A Stock History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Stock History {{ id }}?"
+      },
+      "detail": {
+        "title": "Stock History"
+      },
+      "id": "ID",
+      "quantityChanged": "Quantity Changed",
+      "dateTime": "Date Time",
+      "reason": "Reason",
+      "product": "Product"
+    }
+  }
+}

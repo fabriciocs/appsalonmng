@@ -1,0 +1,26 @@
+{
+  "applications": "*",
+  "changelogDate": "20231126001134",
+  "dto": "mapstruct",
+  "entityTableName": "stock_history",
+  "fields": [
+    {
+      "fieldName": "quantityChanged",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dateTime",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "reason",
+      "fieldType": "String"
+    }
+  ],
+  "name": "StockHistory",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

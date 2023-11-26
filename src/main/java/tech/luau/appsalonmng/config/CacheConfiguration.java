@@ -48,6 +48,17 @@ public class CacheConfiguration {
             createCache(cm, tech.luau.appsalonmng.domain.User.class.getName());
             createCache(cm, tech.luau.appsalonmng.domain.Authority.class.getName());
             createCache(cm, tech.luau.appsalonmng.domain.User.class.getName() + ".authorities");
+            createCache(cm, tech.luau.appsalonmng.domain.AppUser.class.getName());
+            createCache(cm, tech.luau.appsalonmng.domain.Client.class.getName());
+            createCache(cm, tech.luau.appsalonmng.domain.AppService.class.getName());
+            createCache(cm, tech.luau.appsalonmng.domain.AppService.class.getName() + ".products");
+            createCache(cm, tech.luau.appsalonmng.domain.Appointment.class.getName());
+            createCache(cm, tech.luau.appsalonmng.domain.Product.class.getName());
+            createCache(cm, tech.luau.appsalonmng.domain.Product.class.getName() + ".stockHistories");
+            createCache(cm, tech.luau.appsalonmng.domain.Product.class.getName() + ".appServices");
+            createCache(cm, tech.luau.appsalonmng.domain.FinancialTransaction.class.getName());
+            createCache(cm, tech.luau.appsalonmng.domain.StockHistory.class.getName());
+            createCache(cm, tech.luau.appsalonmng.domain.Reward.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

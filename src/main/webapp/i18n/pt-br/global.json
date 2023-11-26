@@ -7,7 +7,15 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entidades",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "appUser": "App User",
+        "client": "Client",
+        "appService": "App Service",
+        "appointment": "Appointment",
+        "product": "Product",
+        "financialTransaction": "Financial Transaction",
+        "stockHistory": "Stock History",
+        "reward": "Reward"
       },
       "account": {
         "main": "Conta",

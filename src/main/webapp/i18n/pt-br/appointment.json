@@ -1,0 +1,28 @@
+{
+  "appsalonmngApp": {
+    "appointment": {
+      "home": {
+        "title": "Appointments",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Appointment",
+        "createOrEditLabel": "Criar ou editar Appointment",
+        "notFound": "Nenhum Appointment encontrado"
+      },
+      "created": "Um novo Appointment foi criado com o identificador {{ param }}",
+      "updated": "Um Appointment foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Appointment foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Appointment {{ id }}?"
+      },
+      "detail": {
+        "title": "Appointment"
+      },
+      "id": "ID",
+      "dateTime": "Date Time",
+      "status": "Status",
+      "client": "Client",
+      "appService": "App Service",
+      "appUser": "App User"
+    }
+  }
+}

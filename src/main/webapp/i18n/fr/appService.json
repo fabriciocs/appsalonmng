@@ -1,0 +1,28 @@
+{
+  "appsalonmngApp": {
+    "appService": {
+      "home": {
+        "title": "AppServices",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau App Service",
+        "createOrEditLabel": "Créer ou éditer un App Service",
+        "notFound": "Aucun App Service trouvé"
+      },
+      "created": "Un nouveau App Service a été créé avec l'identifiant {{ param }}",
+      "updated": "Le App Service avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le App Service avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le App Service {{ id }} ?"
+      },
+      "detail": {
+        "title": "App Service"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "duration": "Duration",
+      "price": "Price",
+      "products": "Products"
+    }
+  }
+}
