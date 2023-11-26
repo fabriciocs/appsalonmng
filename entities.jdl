@@ -1,0 +1,72 @@
+entity AppUser {
+    username String required minlength(5)
+    password String required
+    email String required pattern(/^[^@\s]+@[^@\s]+\.[^@\s]+$/)
+    role String required
+}
+
+entity Client {
+    name String required
+    email String required pattern(/^[^@\s]+@[^@\s]+\.[^@\s]+$/)
+    phone String minlength(10) maxlength(15)
+    address TextBlob
+}
+
+entity AppService {
+    name String required
+    description TextBlob
+    duration Integer required
+    price BigDecimal required min(0)
+}
+
+entity Appointment {
+    dateTime ZonedDateTime required
+    status String required
+}
+
+entity Product {
+    name String required
+    description TextBlob
+    quantityInStock Integer min(0)
+    price BigDecimal required min(0)
+}
+
+entity FinancialTransaction {
+    transactionType String required
+    amount BigDecimal required min(0)
+    dateTime ZonedDateTime required
+    description TextBlob
+}
+
+entity StockHistory {
+    quantityChanged Integer required
+    dateTime ZonedDateTime required
+    reason String
+}
+
+entity Reward {
+    points Integer min(0)
+    description TextBlob
+}
+
+relationship OneToOne {
+    AppUser{client} to Client
+}
+
+relationship ManyToOne {
+    Appointment{client} to Client
+    Appointment{appService} to AppService
+    Appointment{appUser(username)} to AppUser
+}
+
+relationship OneToMany {
+    Client{appointments} to Appointment
+    Product{stockHistories} to StockHistory
+}
+
+relationship ManyToMany {
+    AppService{products} to Product{appServices}
+}
+
+service all with serviceClass
+dto all with mapstruct
